@@ -11,11 +11,11 @@ function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a className="nav-link" href="#" style={{ color: 'white', fontSize: '18px', fontWeight: 'bold' }}>Home</a>
+                            <a className="nav-link" href="Main.js" style={{ color: 'white', fontSize: '18px', fontWeight: 'bold' }}>Home</a>
                         </li>
                         
                         <li class="nav-item">
-                            <a className="nav-link" href="#" style={{ color: 'white', fontSize: '18px', fontWeight: 'bold' }}>Room</a>
+                            <a className="nav-link" href="Room.js" style={{ color: 'white', fontSize: '18px', fontWeight: 'bold' }}>Room</a>
                         </li>
                         
                         <li class="nav-item">
