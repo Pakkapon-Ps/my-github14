@@ -139,7 +139,7 @@
   background-color: #333;
 }
 .centy{
-  align: center;
+  box-align: center;
   text-align: left;
   gap: 50px;
   padding-left: 100px;
