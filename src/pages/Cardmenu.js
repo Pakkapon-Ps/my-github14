@@ -5,7 +5,7 @@ function Cardmenu() {
         <div class="card-container centy">
 
             <div class="card bgc">
-            <img src="img/1x.jpg" alt="Room Image" />
+            <img src="/img/1x.jpg" alt="Room Image" />
             <div class="card-content">
                 <h3>Room Options</h3>
                 <ul>
@@ -22,7 +22,7 @@ function Cardmenu() {
             </div>
 
             <div class="card bgc">
-            <img src="img/1x.jpg" alt="Room Image" />
+            <img src="/img/1x.jpg" alt="Room Image" />
             <div class="card-content">
                 <h3>Room Options</h3>
                 <ul>
@@ -39,7 +39,7 @@ function Cardmenu() {
             </div>
 
             <div class="card bgc">
-            <img src="img/1x.jpg" alt="Room Image" />
+            <img src="/img/1x.jpg" alt="Room Image" />
             <div class="card-content">
                 <h3>Room Options</h3>
                 <ul>
@@ -56,7 +56,7 @@ function Cardmenu() {
             </div>
 
             <div class="card bgc">
-            <img src="img/1x.jpg" alt="Room Image" />
+            <img src="/img/1x.jpg" alt="Room Image" />
             <div class="card-content">
                 <h3>Room Options</h3>
                 <ul>
@@ -73,7 +73,7 @@ function Cardmenu() {
             </div>
 
             <div class="card bgc">
-            <img src="img/1x.jpg" alt="Room Image" />
+            <img src="/img/1x.jpg" alt="Room Image" />
             <div class="card-content">
                 <h3>Room Options</h3>
                 <ul>
@@ -90,7 +90,7 @@ function Cardmenu() {
             </div>
 
             <div class="card bgc">
-            <img src="img/1x.jpg" alt="Room Image" />
+            <img src="/img/1x.jpg" alt="Room Image" />
             <div class="card-content">
                 <h3>Room Options</h3>
                 <ul>

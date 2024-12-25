@@ -11,13 +11,13 @@ function Carousel() {
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="img/1.jpg" className="d-block flex" alt="" />
+            <img src="/img/1.jpg" className="d-block flex" alt="" />
             </div>
             <div class="carousel-item">
-            <img src="img/2.jpg" className="d-block flex" alt="" />
+            <img src="/img/2.jpg" className="d-block flex" alt="" />
             </div>
             <div class="carousel-item">
-            <img src="img/3.jpg" className="d-block flex" alt="" />
+            <img src="/img/3.jpg" className="d-block flex" alt="" />
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

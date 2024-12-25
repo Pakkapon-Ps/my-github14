@@ -8,11 +8,11 @@ function Room() {
                 <tr>
                     
                     <td className="image-column">
-                        <img src="img/r1.jpg" alt="Room Image 1" />
+                        <img src="/img/r1.jpg" alt="Room Image 1" />
                     </td>
                     <td className="image-column2">
-                        <img src="img/r2.jpg" alt="Room Image 2" />
-                        <img src="img/r3.jpg" alt="Room Image 3" />
+                        <img src="/img/r2.jpg" alt="Room Image 2" />
+                        <img src="/img/r3.jpg" alt="Room Image 3" />
                     </td>
                     
                     <td className="info-column">
@@ -27,7 +27,7 @@ function Room() {
                     <td className="info-column">
                         <h3>Guest(s)</h3>
                         <ul>
-                            <li>▪ 2 <img src="img/guesticon.png" width={20}/></li>
+                            <li>▪ 2 <img src="/img/guesticon.png" width={20}/></li>
                         </ul>
                     </td>
                    
