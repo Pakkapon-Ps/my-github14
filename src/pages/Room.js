@@ -1,7 +1,7 @@
 import React from "react";
 import "./RoomCard.css";
 
-function RoomCard() {
+function Room() {
     return (
         <table>
             <tbody>
@@ -40,4 +40,4 @@ function RoomCard() {
     );
 }
 
-export default RoomCard;
+export default Room;
