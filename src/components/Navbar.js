@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-danger">
+        <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <img src="img/logo.png" className="d-block" width="115px" alt="Logo" />
                 <button

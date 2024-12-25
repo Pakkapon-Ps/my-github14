@@ -37,6 +37,13 @@
   }
 }
 
+.navbar{
+  background-color: #C51419;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
 .navbar-nav .nav-item {
   padding: 0 15px;
   text-decoration: none;

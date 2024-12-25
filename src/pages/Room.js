@@ -1,31 +1,43 @@
 import React from "react";
+import "./RoomCard.css";
 
-function Room() {
-    const rooms = [
-        { id: 1, name: "Deluxe Room", price: "$200 per night", description: "Spacious room with king-size bed and city view." },
-        { id: 2, name: "Suite Room", price: "$300 per night", description: "Luxury suite with separate living area and premium amenities." },
-        { id: 3, name: "Standard Room", price: "$100 per night", description: "Comfortable room with queen-size bed and basic facilities." },
-    ];
-
+function RoomCard() {
     return (
-        <div className="container my-5">
-            <h1 className="text-center mb-4">Our Rooms</h1>
-            <div className="row">
-                {rooms.map((room) => (
-                    <div className="col-md-4 mb-4" key={room.id}>
-                        <div className="card">
-                            <div className="card-body">
-                                <h5 className="card-title">{room.name}</h5>
-                                <p className="card-text">{room.description}</p>
-                                <p className="card-text text-primary">{room.price}</p>
-                                <button className="btn btn-danger">Book Now</button>
-                            </div>
-                        </div>
-                    </div>
-                ))}
-            </div>
-        </div>
+        <table>
+            <tbody>
+                <tr>
+                    
+                    <td className="image-column">
+                        <img src="img/r1.jpg" alt="Room Image 1" />
+                    </td>
+                    <td className="image-column2">
+                        <img src="img/r2.jpg" alt="Room Image 2" />
+                        <img src="img/r3.jpg" alt="Room Image 3" />
+                    </td>
+                    
+                    <td className="info-column">
+                        <h3>Room Options</h3>
+                        <ul>
+                            <li>▪ Free Breakfast</li>
+                            <li>▪ Kitchen</li>
+                            <li>▪ Conditioner</li>
+                        </ul>
+                    </td>
+
+                    <td className="info-column">
+                        <h3>Guest(s)</h3>
+                        <ul>
+                            <li>▪ 2 <img src="img/guesticon.png" width={20}/></li>
+                        </ul>
+                    </td>
+                   
+                    <td className="button-column">
+                        <button className="see-more-btn">See more</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     );
 }
 
-export default Room;
+export default RoomCard;
