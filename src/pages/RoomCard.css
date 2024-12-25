@@ -1,55 +1,59 @@
 table {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     border-collapse: collapse;
     background-color: #C51419;
     color: white;
-    border-radius: 8px;
+    border-radius: 12px;
+    margin: 50px auto;
     overflow: hidden;
-    border-radius: 10px;
-    border: 12px solid #C51419;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 td, th {
-    padding: 10px;
+    padding: 15px; /* เพิ่มระยะห่างในเซลล์ */
     text-align: left;
 }
 
 .image-column {
-    width: 30%;
+    width: 50%;
     text-align: center;
 }
 
 .image-column img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 12px;
     margin-bottom: 5px;
-    border: solid 10px white;
+    border: 6px solid white; /* ลดความหนาของเส้นขอบ */
 }
 
 .image-column2 {
     display: flex;
     flex-direction: column; 
     align-items: center;    
-    gap: 5px;              
+    gap: 10px; /* เพิ่มระยะห่างระหว่างรูปภาพ */
 }
 
 .image-column2 img {
-    width: 110px;           
-    height: auto;           
-    border-radius: 8px; 
-    border: solid 10px white;    
+    width: 120px; /* ลดขนาดของรูป */
+    height: auto;
+    border-radius: 12px;
+    border: 6px solid white; /* ลดความหนาของเส้นขอบ */
 }
 
 .info-column {
     width: 50%;
     background-color: white;
     color: black;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 .info-column h3 {
     margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .info-column ul {
@@ -59,7 +63,7 @@ td, th {
 }
 
 .info-column ul li {
-    margin-bottom: 1px;
+    margin-bottom: 5px;
 }
 
 .price-column {
@@ -69,11 +73,13 @@ td, th {
 }
 
 .price-column p {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .button-column {
-    text-align: right;
+    text-align: center; /* จัดปุ่มให้อยู่ตรงกลางเซลล์ */
+    vertical-align: middle; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    padding: 20px; /* เพิ่มระยะห่างรอบปุ่ม */
 }
 
 .see-more-btn {
@@ -82,10 +88,15 @@ td, th {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block; /* ป้องกันปุ่มยืดเต็มความกว้าง */
+    margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
 }
 
 .see-more-btn:hover {
     background-color: #f7f7f7;
+    color: #a01314;
 }
